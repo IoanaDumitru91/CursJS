@@ -1,0 +1,56 @@
+body{
+background-color: rgb(250, 248, 244);
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-bottom: 1px solid lightgray;
+}
+#blog ul{
+    border: dashed red;
+    font-family: system-ui;
+}
+#blog h2{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: system-ui;
+    line-height: 90px;
+}
+#blog img{
+    width: 60%;
+}
+.boxParagraph h4{
+    color: red;
+    text-decoration: underline;
+}
+.boxParagraph{
+    width: 80%;
+    background-color: rgb(240, 236, 231);
+    border: 1px solid lightgray;
+    margin: 50px;
+    line-height: 210%;
+    font-family: system-ui;
+}
+.link{
+    text-decoration: none;
+    font-weight: 300px;
+    color: black;
+    font-weight: bold;
+}
+.link:hover{
+    color: red;
+    transition: all ease 0.5s;
+}
+
+.button{
+    font-family: system-ui;
+    background-color: red;
+    border-radius: 53%;
+    width: 25%;
+    height: 45px;
+}
+
